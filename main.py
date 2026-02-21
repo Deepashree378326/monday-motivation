@@ -2,6 +2,7 @@ import smtplib
 import datetime as dt
 import random
 import os
+import pandas
 
 # Get environment variables
 my_email = os.environ.get("EMAIL_ADDRESS")
